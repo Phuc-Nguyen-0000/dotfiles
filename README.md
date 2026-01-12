@@ -4,10 +4,10 @@ A collection of configuration files for my Windows terminal environment.
 
 ## Preview
 
-!\[Terminal Preview](screenshots/preview.png)
+![Terminal Preview](screenshots/preview.png)
 
 ## Contents
 
-\* \*\*`starship.toml`\*\*: Configuration for \[Starship](https://starship.rs/)
+**_`starship.toml`_**: Configuration for [Starship](https://starship.rs/)
 
-\* \*\*`fastfetch.jsonc`\*\*: Configuration for \[Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+**_`fastfetch.jsonc`_**: Configuration for [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
