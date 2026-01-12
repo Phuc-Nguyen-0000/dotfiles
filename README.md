@@ -1,20 +1,13 @@
-**# Terminal Configuration (Dotfiles)**
+# Terminal Configuration (Dotfiles)
 
-**A collection of configuration files for my Windows terminal environment.**
+A collection of configuration files for my Windows terminal environment.
 
-**## Preview**
+## Preview
 
-**!\[Terminal Preview](screenshots/preview.png)**
+!\[Terminal Preview](screenshots/preview.png)
 
-**## Contents**
+## Contents
 
-**\* \*\*`starship.toml`\*\*: Configuration for \[Starship](https://starship.rs/)**
+\* \*\*`starship.toml`\*\*: Configuration for \[Starship](https://starship.rs/)
 
-**\* \*\*`fastfetch.jsonc`\*\*: Configuration for \[Fastfetch](https://github.com/fastfetch-cli/fastfetch)**
-
-
-
-
-
-
-
+\* \*\*`fastfetch.jsonc`\*\*: Configuration for \[Fastfetch](https://github.com/fastfetch-cli/fastfetch)
