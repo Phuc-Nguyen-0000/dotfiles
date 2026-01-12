@@ -1,0 +1,109 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "%USERPROFILE%/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#4CC9F0",
+      "2": "#63B9EA",
+      "3": "#7AA8E4",
+      "4": "#9198DE",
+      "5": "#A888D8",
+      "6": "#BF77D2",
+      "7": "#D667CC",
+      "8": "#ED56C6",
+      "9": "#F72585"
+    },
+    "padding": {
+      "top": 0,
+      "right": 2
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+
+  "modules": [
+    "break",
+
+    {
+      "type": "title",
+      "color": {
+        "user": "#f285d4",
+        "at": "#CDD6F4",
+        "host": "#89DCEB"
+      }
+    },
+    // "break",
+    {
+      "type": "custom",
+      "format": "╭────────────────────────────────────────────────────╮",
+      "outputColor": "#4CC9F0"
+    },
+    {
+      "type": "os",
+      "key": "   ",
+      "keyColor": "#89DCEB",
+      "format": "{pretty-name}"
+    },
+    {
+      "type": "cpu",
+      "key": "   ",
+      "keyColor": "#F5C2E7",
+      "format": "{name} @ {freq-max}"
+    },
+    {
+      "type": "gpu",
+      "key": "  󰚗 ",
+      "keyColor": "#FAB387",
+      "format": "{name}"
+    },
+    {
+      "type": "memory",
+      "key": "   ",
+      "keyColor": "#FFA4A4",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "   ",
+      "keyColor": "#94E2D5"
+    },
+    {
+      "type": "battery",
+      "key": "   ",
+      "keyColor": "#A6E3A1",
+      "format": "{capacity} [{status}]"
+    },
+    {
+      "type": "localip",
+      "key": "  󰀂 ",
+      "keyColor": "#74C7EC"
+    },
+    {
+      "type": "display",
+      "key": "  󰍹 ",
+      "keyColor": "#CBA6F7",
+      "format": "{width}x{height} in {inch}″ @ {refresh-rate}Hz"
+    },
+    {
+      "key": "   ",
+      "type": "terminal",
+      "keyColor": "#F2E2B1",
+      "paddingLeft": 2
+    },
+    {
+      "type": "dateTime",
+      "key": "  󰥔 ",
+      "keyColor": "#EBD6FB",
+      "format": "{23}-{4}-{1} | {14}:{18}:{20}"
+    },
+    {
+      "type": "custom",
+      "format": "╰─────────────────────────────── \u001b[38;2;245;194;231m \u001b[38;2;137;220;235m \u001b[38;2;249;226;175m \u001b[38;2;203;166;247m󰜈 \u001b[38;2;243;139;168m \u001b[38;2;166;227;161m \u001b[38;2;250;179;135m󰊢 \u001b[38;2;235;160;172m \u001b[38;2;148;226;213m \u001b[38;2;214;103;204m──╯",
+      "outputColor": "#D667CC"
+    },
+    "break"
+  ]
+}
